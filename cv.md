@@ -1,5 +1,7 @@
 # Oleksiy Chuguyenko
 
+![Photo](images/photo.jpg "Photo")
+
 # Contacts:
 * **Phone:** +380 (66) 615-55-49
 * **Discord:** Oleksiy Chuguyenko (@AleksGF)
@@ -15,15 +17,13 @@
 
 # Code Example
 ```
-const decodeMorse = function(morseCode){
-  return morseCode
+const decodeMorse = morseCode => morseCode
     .trim()
     .split('   ')
     .map(word => word.split(' ')
       .map(letter => MORSE_CODE[letter])
         .join(''))
       .join(' ');
-}
 ```
 
 # Education
