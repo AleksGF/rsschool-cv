@@ -8,7 +8,8 @@
 * **Viber:** +380666155549
 * **E-mail:** [aleksgf@mail.zp.ua](aleksgf@mail.zp.ua)
 * **GitHub:** [AleksGF](https://github.com/AleksGF)
-*****
+
+
 # Skills
 * HTML
 * CSS
