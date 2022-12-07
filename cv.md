@@ -29,6 +29,9 @@ const decodeMorse = morseCode => morseCode
 ```
 
 
+# Projects
+* [CV](https://aleksgf.github.io/rsschool-cv/cv)
+
 # Education
 * **Zaporizhzhia National Technical University** *(2004)*
     * International economic relations
