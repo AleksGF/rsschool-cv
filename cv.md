@@ -1,7 +1,11 @@
 # Oleksiy Chuguyenko
+
 *****
+
 ![Photo](images/photo.jpg "Photo")
+
 *****
+
 # Contacts:
 * **Phone:** +380&nbsp;(66)&nbsp;615-55-49
 * **Discord:** Oleksiy&nbsp;Chuguyenko&nbsp;(@AleksGF)
@@ -19,11 +23,11 @@
 
 # Code Example
 ```
-const decodeMorse = morseCode => morseCode
+const decodeMorse = morseCode =&gt; morseCode
     .trim()
     .split('   ')
-    .map(word => word.split(' ')
-      .map(letter => MORSE_CODE[letter])
+    .map(word =&gt; word.split(' ')
+      .map(letter =&gt; MORSE_CODE[letter])
         .join(''))
       .join(' ');
 ```
