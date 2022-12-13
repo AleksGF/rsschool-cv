@@ -38,6 +38,20 @@ RS School project - CV
                 </li>
             </ol>
         </section>
+        <!-- Code Example -->
+        <section class="code_example">
+            <h3 class="main_title">Code Example</h3>
+            <code class="code_item">
+                const decodeMorse = morseCode => morseCode
+                  .trim()
+                  .split('   ')
+                  .map(word => word.split(' ')
+                  .map(letter => MORSE_CODE[letter])
+                  .join(''))
+                  .join(' ');
+            </code>
+            <p class="code_description">Solution for <a class="code_link" href="https://www.codewars.com/kata/54b724efac3d5402db00065e">Kata</a></p>
+        </section>
         <!-- Tech Skills -->
         <section class="skills">
             <h3 class="main_title">Tech Skills</h3>
@@ -84,7 +98,7 @@ RS School project - CV
         <section class="contacts">
             <h3 class="sidebar_title">Contacts</h3>
             <div>
-                <p class="contact_item"><span class="contact_type"><i class="fa-regular fa-phone"></i> </span><a class="contact_link phone_link" href="tel:+380666155549">+380 66 615 55 49</a></p>
+                <p class="contact_item"><span class="contact_type"><i class="fa-solid fa-phone"></i> </span><a class="contact_link phone_link" href="tel:+380666155549">+380&nbsp;66&nbsp;615&nbsp;55&nbsp;49</a></p>
                 <p class="contact_item"><span class="contact_type"><i class="fa-regular fa-envelope"></i> </span><a class="contact_link" href="mailto:aleksgf@mail.zp.ua">aleksgf@mail.zp.ua</a></p>
                 <p class="contact_item"><span class="contact_type"><i class="fa-brands fa-viber"></i> </span><a class="contact_link" href="/Viber">+380666155549</a></p>
                 <p class="contact_item"><span class="contact_type"><i class="fa-brands fa-discord"></i> </span><a class="contact_link" href="/Discord">Oleksiy Chuguyenko (@AleksGF)</a></p>
