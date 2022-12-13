@@ -42,13 +42,13 @@ RS School project - CV
         <section class="code_example">
             <h3 class="main_title">Code Example</h3>
             <code class="code_item">
-                const decodeMorse = morseCode => morseCode
+                <pre>const decodeMorse = morseCode =&gt; morseCode
                   .trim()
                   .split('   ')
-                  .map(word => word.split(' ')
-                  .map(letter => MORSE_CODE[letter])
+                  .map(word =&gt; word.split(' ')
+                  .map(letter =&gt; MORSE_CODE[letter])
                   .join(''))
-                  .join(' ');
+                  .join(' ');</pre>
             </code>
             <p class="code_description">Solution for <a class="code_link" href="https://www.codewars.com/kata/54b724efac3d5402db00065e">Kata</a></p>
         </section>
