@@ -23,11 +23,11 @@
 
 # Code Example
 ```
-const decodeMorse = morseCode =&gt; morseCode
+const decodeMorse = morseCode => morseCode
     .trim()
     .split('   ')
-    .map(word =&gt; word.split(' ')
-      .map(letter =&gt; MORSE_CODE[letter])
+    .map(word => word.split(' ')
+      .map(letter => MORSE_CODE[letter])
         .join(''))
       .join(' ');
 ```
