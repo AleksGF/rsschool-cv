@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/4753aac3d1.js" crossorigin="anonymous"></script>
+    <title>RSSchool CV Project</title>
+</head>
+<body>
+<!-- Wrapper -->
+<div class="wrapper">
+    <!-- Header -->
+    <header class="header">
+        <div class="header_about"><a class="header_link" href="https://rs.school/">RS School</a> project - CV</div>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#about">About</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#projects">Projects</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#code_example">Code Example</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#tech_skills">Tech Skills</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#soft_skills">Soft Skills</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#education">Education</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#languages">Languages</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_link" href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Content Wrapper -->
+    <div class="content_wrapper">
+        <!-- Main Content -->
+        <main class="main_content">
+            <!-- About -->
+            <h1 class="name">Oleksiy Chuguyenko</h1>
+            <section class="about" id="about">
+                <h2 class="main_title">About me</h2>
+                <div class="about_quote">
+                    <q class="quote">Everybody in this country should learn to program a computer, because it teaches you how to think</q>
+                    <p class="quote_author"><em><strong>Steve Jobs</strong></em></p>
+                </div>
+                <p>I like coding and to solve different programming tasks.</p>
+            </section>
+            <!-- Projects -->
+            <section class="projects" id="projects">
+                <h2 class="main_title">Projects</h2>
+                <ol class="projects_list">
+                    <li class="projects_item">
+                        <a class="projects_item_link" href="https://aleksgf.github.io/rsschool-cv/cv">CV</a>
+                        ..........................................................
+                        <span class="bold_item black_item">[</span> HTML5, CSS3 <span class="bold_item black_item">]</span>
+                    </li>
+                    <li class="projects_item">
+                        <a class="projects_item_link" href="https://github.com/AleksGF/React_First_Steps">SamuraiJS&nbsp;Social&nbsp;Network</a>
+                        ...
+                        <span class="bold_item black_item">[</span> JavaScript, React.js <span class="bold_item black_item">]</span>
+                    </li>
+                </ol>
+            </section>
+            <!-- Code Example -->
+            <section class="code_example" id="code_example">
+                <h2 class="main_title">Code Example</h2>
+                <code class="code_item">
+                    const decodeMorse = morseCode =&gt; morseCode<br>
+                    &nbsp;&nbsp;.trim()<br>
+                    &nbsp;&nbsp;.split(' ')<br>
+                    &nbsp;&nbsp;.map(word =&gt; word.split(' ')<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;.map(letter =&gt; MORSE_CODE[letter])<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;.join('')<br>
+                    &nbsp;&nbsp;)<br>
+                    &nbsp;&nbsp;.join(' ');
+                </code>
+                <p class="code_description">Solution for <a class="code_link"
+                                                            href="https://www.codewars.com/kata/54b724efac3d5402db00065e">Kata</a>
+                </p>
+            </section>
+            <!-- Tech Skills -->
+            <section class="skills" id="tech_skills">
+                <h2 class="main_title">Tech Skills</h2>
+                <ul class="skills_list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>GIT</li>
+                    <li>React.js</li>
+                </ul>
+            </section>
+            <!-- Soft Skills -->
+            <section class="skills" id="soft_skills">
+                <h2 class="main_title">Soft Skills</h2>
+                <ul class="skills_list">
+                    <li>Teamwork</li>
+                    <li>Time management</li>
+                    <li>Communication</li>
+                    <li>Problem-solving</li>
+                    <li>Work ethic</li>
+                </ul>
+            </section>
+            <!-- Education -->
+            <section class="education" id="education">
+                <h2 class="main_title">Education</h2>
+                <h4 class="education_item"><span class="company-name">Zaporizhzhia National Technical University</span>
+                </h4>
+                <h5 class="education_speciality">International economic relations</h5>
+                <p class="education_date">September 1999 - June 2004 <span class="black_item">|</span> Ukraine</p>
+            </section>
+            <!-- Languages -->
+            <section class="languages" id="languages">
+                <h2 class="main_title">Languages</h2>
+                <ul class="languages_list">
+                    <li>Ukrainian (native)</li>
+                    <li>Russian (native)</li>
+                    <li>English (B1)</li>
+                </ul>
+            </section>
+        </main>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Photo -->
+            <img src="images/photo.jpg" alt="User photo" class="photo">
+            <!-- Contacts -->
+            <section class="contacts" id="contacts">
+                <h2 class="sidebar_title">Contacts</h2>
+                <div>
+                    <p class="contact_item"><i class="fa-solid fa-phone"></i>&nbsp;<a class="contact_link phone_link"
+                                                                                      href="tel:+380666155549">+380&nbsp;66&nbsp;615&nbsp;55&nbsp;49</a>
+                    </p>
+                    <p class="contact_item"><i class="fa-regular fa-envelope"></i>&nbsp;<a class="contact_link"
+                                                                                           href="mailto:aleksgf@mail.zp.ua">aleksgf@mail.zp.ua</a>
+                    </p>
+                    <p class="contact_item"><i class="fa-brands fa-viber"></i>&nbsp;<a class="contact_link"
+                                                                                       href="viber://chat?number=380666155549">+380666155549</a>
+                    </p>
+                    <p class="contact_item"><i class="fa-brands fa-discord"></i>&nbsp;<a class="contact_link"
+                                                                                         href="https://discord.com/users/1022856792180531250">Oleksiy&nbsp;Chuguyenko&nbsp;(@AleksGF)</a>
+                    </p>
+                    <p class="contact_item"><i class="fa-brands fa-github"></i>&nbsp;<a class="contact_link"
+                                                                                        href="https://github.com/AleksGF">AleksGF</a>
+                    </p>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="https://rs.school/js/">
+            <img class="school_logo" src="https://rs.school/images/rs_school_js.svg" alt="RS School logo">
+        </a>
+        <a class="footer_link" href="https://github.com/AleksGF">GitHub</a>
+        <span class="footer_year">2022</span>
+    </footer>
+</div>
+</body>
+</html>
