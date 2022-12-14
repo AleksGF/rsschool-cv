@@ -1,10 +1,14 @@
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F5F7FA;
 }
 
 .wrapper {
-  width: 90%;
+  width: 95%;
   max-width: 1240px;
   margin: auto;
 }
@@ -277,4 +281,42 @@ body {
 
 .footer_link {
   text-decoration: none;
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 910px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+ .nav_list {
+   display: none;
+ }
+
+  .content_wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .main_content {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .photo {
+    width: 30%;
+  }
 }
